@@ -11,8 +11,8 @@ export default function Home() {
 
       {/* キャッチコピー */}
       <p style={styles.catch}>
-        業界最安の4%手数料。<br />
-        SNS依頼の“お金トラブル”をゼロにします。
+        手数料は業界最安の4%<br />
+        SNS依頼の“お金トラブル”をゼロに！
       </p>
 
       {/* サブコピー */}
@@ -95,19 +95,25 @@ const styles = {
     background: "#fafafa",
     cursor: "default"
   },
-  steps: {
+   steps: {
     marginTop: 20,
-    marginBottom: 40
+    marginBottom: 20,   // ← 間隔を狭めました
+    maxWidth: "320px",  // ← 左寄せでも綺麗に見せるため追加
+    textAlign: "left",  // ← 左寄せ
+    marginLeft: "auto",
+    marginRight: "auto"
   },
   stepsTitle: {
     fontSize: "20px",
-    marginBottom: 15,
-    fontWeight: "bold"
+    marginBottom: 12,
+    fontWeight: "bold",
+    textAlign: "center"  // ← タイトルは中央のまま
   },
   step: {
     fontSize: "15px",
-    marginBottom: 5,
-    color: "#444"
+    marginBottom: 6,
+    color: "#444",
+    lineHeight: 1.5
   },
   links: {
     marginTop: "auto",
@@ -122,3 +128,4 @@ const styles = {
     textDecoration: "underline"
   }
 };
+
