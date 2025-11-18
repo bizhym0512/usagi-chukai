@@ -16,8 +16,7 @@ export default function Home() {
       </div>
 
       <p style={styles.desc}>
-        SNSでの依頼をもっと安全に。<br />
-        エスクロー型で“トラブルなく”取引できます。
+        支払い・納品のトラブルを防ぐ決済アプリ
       </p>
 
       <div style={styles.links}>
@@ -82,3 +81,4 @@ const styles = {
     fontSize: "16px"
   }
 };
+
