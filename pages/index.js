@@ -124,7 +124,7 @@ const styles = {
   },
 
 box: {
-  width: "100%",       // ← 横幅いっぱい
+  width: "80%",       // ← 横幅いっぱい
   padding: "20px",     // ← 元の適正値
   border: "1px solid #eee",
   borderRadius: "12px",
@@ -159,6 +159,7 @@ box: {
     textDecoration: "underline",
   },
 };
+
 
 
 
