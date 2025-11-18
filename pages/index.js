@@ -123,13 +123,14 @@ const styles = {
     marginTop: "80px",     // ← 右列を少し下へ（ウサギの足の位置）
   },
 
-  box: {
-    padding: "100%",
-    border: "1px solid #eee",
-    borderRadius: "12px",
-    background: "#fafafa",
-    marginBottom: 25,
-  },
+box: {
+  width: "100%",       // ← 横幅いっぱい
+  padding: "20px",     // ← 元の適正値
+  border: "1px solid #eee",
+  borderRadius: "12px",
+  background: "#fafafa",
+  marginBottom: 25,
+},
 
   boxTitle: {
     margin: 0,
@@ -158,5 +159,6 @@ const styles = {
     textDecoration: "underline",
   },
 };
+
 
 
