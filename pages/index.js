@@ -9,29 +9,21 @@ export default function Home() {
       <p style={styles.subtitle}>
         クリエイターと依頼者のための、安全・匿名・かんたん決済アプリ
       </p>
-
+　　　<p style={styles.desc}>
+        支払い・納品のトラブルを防ぐ決済アプリ
+      </p>
       <div style={styles.downloadArea}>
         <button style={styles.downloadBtn}>iOS版（準備中）</button>
         <button style={styles.downloadBtn}>Android版（準備中）</button>
       </div>
 
-      <p style={styles.desc}>
-        支払い・納品のトラブルを防ぐ決済アプリ
-      </p>
+    
 
       <div style={styles.links}>
         <Link href="/terms" style={styles.link}>利用規約</Link>
         <Link href="/privacy" style={styles.link}>プライバシーポリシー</Link>
         <Link href="/tokushoho" style={styles.link}>特商法</Link>
         <Link href="/contact" style={styles.link}>お問い合わせ</Link>
-      <a
-    href="https://x.com/usagidechukai"
-    target="_blank"
-    rel="noopener noreferrer"
-    style={styles.link}
-  >
-    X
-  </a>
       </div>
     </div>
   );
