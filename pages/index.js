@@ -39,9 +39,7 @@ export default function Home() {
 
           <div style={styles.box}>
             <h3 style={styles.boxTitle}>操作はかんたん！</h3>
-            <p style={styles.boxText}>1. アプリでURL作成</p>
-            <p style={styles.boxText}>2. SNSのDMで納品</p>
-            <p style={styles.boxText}>3. アプリからお金をうけとる</p>
+            
           </div>
 
         </div>
@@ -159,6 +157,7 @@ box: {
     textDecoration: "underline",
   },
 };
+
 
 
 
