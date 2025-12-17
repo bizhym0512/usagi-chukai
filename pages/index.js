@@ -316,7 +316,8 @@ export default function HomePage() {
               color: colors.grayText,
             }}
           >
-            <div>© {new Date().getFullYear()} dmpay</div>
+           <div>© {new Date().getFullYear()} dmpay / build-20251217-1</div>
+
 
             {/* ★ここに「特商法リンク」を追加（最小変更） */}
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
@@ -372,4 +373,5 @@ export default function HomePage() {
     </div>
   );
 }
+
 
